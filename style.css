@@ -1,0 +1,82 @@
+body {
+    font-family: Open Sans, sans-serif;
+    background-color: #b7d7e8; /* Add your desired background color here */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+  .container {
+    width: 320px;
+    padding: 20px;
+    background-color: #9fb677;
+    border-radius: 10px;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.521);
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  input[type="text"] {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #0f58a5b0;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  #temperature {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #description {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #3b3b3b;
+  }
+  
+  /* Add some media queries for responsive design */
+  @media (max-width: 768px) {
+   .container {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+   .container {
+      width: 100%;
+    }
+  }
